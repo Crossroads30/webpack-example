@@ -1,9 +1,12 @@
 .button  {
+   @include mainFont(20px);
+
    width: 100px;
    height: 50px;
    background-color: red;
    margin-left: 50%;
    transform: translate(-50%);
+   
    &:hover {
       cursor: pointer;
    }
